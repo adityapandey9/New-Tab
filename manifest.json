@@ -1,0 +1,23 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "js/background.js" ]
+   },
+   "chrome_url_overrides": {
+      "newtab": "main.html"
+   },
+   "default_locale": "en",
+   "description": "Allows a you to create a custom Homepage",
+   "icons": {
+      "128": "images/icon128.png",
+      "48": "images/icon48.png"
+   },
+   "incognito": "split",
+   "manifest_version": 2,
+   "version": "0.1",
+   "minimum_chrome_version": "22",
+   "name": "New Homepage",
+   "optional_permissions": [ "tabs", "topSites", "management", "bookmarks" ],
+   "options_page": "options.html",
+   "permissions": [ "storage", "chrome://favicon/" ]
+}
